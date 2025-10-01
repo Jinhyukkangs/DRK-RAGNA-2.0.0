@@ -1,4 +1,3 @@
-```yaml
 name: node.js CI
 
 on:
