@@ -1,12 +1,12 @@
-name: node.js CI
+name: Node.js CI
 
 on:
   push:
     branches:
-      - main
+      - principal
 
 jobs:
-  build:
+  construire:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,6 +23,6 @@ jobs:
 
       - name: Exécuter l'application
         run: |
-          echo "Démarrage du script"
+          echo "Démarrage du script..."
           chmod +x ./start.sh
           ./start.sh
